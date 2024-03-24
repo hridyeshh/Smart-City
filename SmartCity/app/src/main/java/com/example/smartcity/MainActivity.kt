@@ -28,7 +28,7 @@ class MapsActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     val context = GeoApiContext.Builder()
-                        .apiKey("AIzaSyCTcgkAxQaZ_d5XjqtmqHbKu3g0HJxk88A")
+                        .apiKey("YOUR_API_KEY")
                         .build()
                     val directionsApiRequest = DirectionsApiRequest(context)
                     val origin = LatLng(37.7749, -122.4194) // San Francisco
